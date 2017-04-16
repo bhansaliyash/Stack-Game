@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yash.first1.about"
+    android:background="#3bcfad">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+
+        android:layout_centerHorizontal="true"
+        android:text="Developed By  :"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#858fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yash Bhansali"
+        android:id="@+id/textView11"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designed By :"
+        android:id="@+id/textView12"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="37dp"
+        android:layout_above="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:textColor="#858fff"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Devansh Purohit"
+        android:id="@+id/textView13"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:gravity="center" />
+</RelativeLayout>
